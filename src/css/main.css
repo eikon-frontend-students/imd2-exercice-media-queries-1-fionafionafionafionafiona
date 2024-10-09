@@ -40,6 +40,9 @@ h2 {
 p {
   font-size: 14px;
   font-weight: 400;
+}
+
+.description-content {
   padding-bottom: 20px;
 }
 
@@ -62,7 +65,17 @@ p {
   display: none;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 576px) {
+  h2 {
+    font-size: 28px;
+  }
+  .description-content {
+    padding-bottom: 50px;
+  }
+  .logos {
+    justify-content: space-between;
+    padding-bottom: 50px;
+  }
 }
 
 @media (max-width: 1200px) {
