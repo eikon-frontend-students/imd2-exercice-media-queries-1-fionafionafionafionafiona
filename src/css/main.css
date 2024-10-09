@@ -65,7 +65,7 @@ p {
   display: none;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 576px) and (max-width: 992px) {
   h2 {
     font-size: 28px;
   }
@@ -78,5 +78,24 @@ p {
   }
 }
 
-@media (max-width: 1200px) {
+@media (min-width: 992px) {
+  h2 {
+    font-size: 36px;
+  }
+  .description-title {
+    text-align: left;
+  }
+  .description-content {
+    font-size: 20px;
+  }
+  .logos {
+    justify-content: left;
+    gap: 30px;
+  }
+  .mobile {
+    display: none;
+  }
+  .desktop {
+    display: contents;
+  }
 }
